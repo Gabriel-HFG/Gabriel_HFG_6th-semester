@@ -1,0 +1,10 @@
+.testing {
+  display: flex;                /* Activa el modo flexible */
+  justify-content: space-between; /* Empuja el primer texto a la izquierda y el último a la derecha */
+  width: 100%;                  /* Asegura que use todo el ancho de la página */
+
+  /* Estilos opcionales para que se vea mejor */
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  padding: 20px 0;
+}
