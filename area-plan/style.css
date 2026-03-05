@@ -1,10 +1,52 @@
 .testing {
-  display: flex;                /* Activa el modo flexible */
-  justify-content: space-between; /* Empuja el primer texto a la izquierda y el último a la derecha */
-  width: 100%;                  /* Asegura que use todo el ancho de la página */
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 30px 0;
+}
+.image {
+  padding-top: 300px;
+  padding-bottom: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.vision {
+  display: flex;
+  font-size: 10px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.Word_vision {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      padding-top: 0px;
+      padding-bottom:0px;
+}
 
-  /* Estilos opcionales para que se vea mejor */
-  font-family: Arial, sans-serif;
-  font-size: 24px;
-  padding: 20px 0;
+.center_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding-top: 150px;
+  padding-right: 600px;
+  padding-bottom: 0px;
+  padding-left: 600px;
 }
