@@ -17,11 +17,12 @@
 }
 .image {
   padding-top: 300px;
-  padding-bottom: 400px;
+  padding-bottom: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
+  width: auto;
 }
 .vision {
   display: flex;
@@ -47,6 +48,13 @@
   font-size: 20px;
   padding-top: 150px;
   padding-right: 600px;
-  padding-bottom: 0px;
+  padding-bottom: 500px;
   padding-left: 600px;
+}
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 30px 0;
 }
