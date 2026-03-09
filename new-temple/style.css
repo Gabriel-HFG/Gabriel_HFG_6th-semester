@@ -1,0 +1,21 @@
+/* Element Selector */
+h1 {
+    text-transform: uppercase;
+    color: saddlebrown;
+
+}
+/* ID-Selector */
+#status {
+    font-family: sans-serif;
+    color: saddlebrown; }
+img {
+    width: 500px;
+}
+
+/*Class Selector */
+.standout {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
