@@ -1,3 +1,9 @@
+/* Unicersal Selector */
+* {
+    color: #282828;
+    font-family: sans-serif;
+}
+
 /* Element Selector */
 h1 {
     text-transform: uppercase;
@@ -7,7 +13,9 @@ h1 {
 /* ID-Selector */
 #status {
     font-family: sans-serif;
-    color: saddlebrown; }
+    color: saddlebrown;
+}
+
 img {
     width: 500px;
 }
@@ -17,5 +25,35 @@ img {
     background-color: whitesmoke;
     border-radius: 1rem;
     padding: 1rem;
-    
 }
+
+.Announcement {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+ .sub {
+    text-transform: uppercase;
+    color: saddlebrown;
+    color-size: 1.2rem;
+    font-weight: bold;
+ }
+
+ /* Group Selector */
+ h1, .subtitle {
+    font=family: serif;
+ }
+
+ /* psceudo things */
+ a {
+    text-decoration: none;
+    color: rbg(163, 157, 111);
+ }
+
+ a:hover {
+    text-decpration: underline;
+ }
+
+ main {
+    width: 600px;
+    margin: auto;
+ }
