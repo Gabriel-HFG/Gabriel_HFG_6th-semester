@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+    height: 4000px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+main {
+    width: 500px;
+}
