@@ -17,6 +17,7 @@ header {
 
 main {
     width: 500px;
+    height: 100%;
     margin: 100px auto 0;
 
 }
@@ -64,5 +65,7 @@ main {
     background-color: lightblue;
     padding: 1rem;
     position: sticky;
+    top: 100px;
+    height: 400px;
 }
 
