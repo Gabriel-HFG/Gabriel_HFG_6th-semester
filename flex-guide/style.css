@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    color: dodgerblue;
+}
+
+.container {
+    background-color: whitesmoke;
+}
+
+.box {
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#flex {
+    display: flex;
+}
+
+#flexstart {
+    display:flex;
+    justify-content: flex-start;
+}
+
+#flexend {
+    display:flex;
+    justify-content: flex-end;
+}
+
+#center {
+    display:flex;
+    justify-content: flex-center;
+}
+
+#spacearound {
+    display:flex;
+    justify-content: space-around;
+}
+
+#spacebetween {
+    display:flex;
+    justify-content: space-between;
+}
