@@ -8,6 +8,12 @@
   padding-bottom: 10px;
   padding-left: 10px;
 }
+
+.testing a {
+  text-decoration: none;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
 .Title {
   display: flex;
   justify-content: center;
@@ -58,3 +64,49 @@
   font-size: 40px;
   padding: 30px 0;
 }
+
+#title p {
+    margin: 0;
+    align-items: center
+}
+
+.navbar {
+  display: flex;
+  align-items: center; /* Vertically centers the logo and text */
+  padding: 10px 40px;
+  background-color: white;
+  border-bottom: 1px solid #000;
+}
+
+.nav-links-left, .nav-links-right {
+  display: flex;
+  list-style: none; /* Removes bullet points */
+  margin-left: 50px; /* Space between logo and first link */
+  padding: 0;
+}
+
+.nav-links-left li, .nav-links-right li {
+  margin: 0 15px; /* Spacing between each link */
+}
+
+.nav-links-left a, .nav-links-right a {
+  text-decoration: none;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.logo-box {
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  text-transform: uppercase;
+}
+
+.nav-links-right {
+  margin-left: auto;
+}
+
+.logo-box p { margin: 0; line-height: 1.1; }
+.small-text { font-size: 10px; }
+.large-text { font-size: 22px; font-weight: bold; }
+.medium-text { font-size: 12px; }
