@@ -72,7 +72,7 @@
 
 .navbar {
   display: flex;
-  align-items: center; /* Vertically centers the logo and text */
+  align-items: center;
   padding: 10px 40px;
   background-color: white;
   border-bottom: 1px solid #000;
@@ -80,13 +80,13 @@
 
 .nav-links-left, .nav-links-right {
   display: flex;
-  list-style: none; /* Removes bullet points */
-  margin-left: 50px; /* Space between logo and first link */
+  list-style: none;
+  margin-left: 50px;
   padding: 0;
 }
 
 .nav-links-left li, .nav-links-right li {
-  margin: 0 15px; /* Spacing between each link */
+  margin: 0 15px;
 }
 
 .nav-links-left a, .nav-links-right a {
