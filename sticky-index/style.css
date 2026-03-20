@@ -1,0 +1,36 @@
+body {
+  font-family: serif;
+  line-height: 1.6;
+  margin: 20px;
+  height: 4000px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+section {
+  margin-bottom: 10px;
+}
