@@ -25,3 +25,5 @@ let colors = ["red", "green", "blue"];
 let firstColor = colors.shift();
 console.log(colors); // ["green", "blue"]
 console.log(firstColor); // "red"
+
+//Remember about .fiter or a compression
