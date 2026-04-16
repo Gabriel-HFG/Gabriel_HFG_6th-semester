@@ -1,18 +1,9 @@
+let originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
+let filteredArray = [...originalArray]
+filteredArray = filteredArray.filter(item => item.id > 1).map((item) => ({...item}));
+console.log(originalArray)
 
-let obj = {
-    value: 1,
-    increment: function() {
-        this.value++;
-        return this;
-    },
-    double: function() {
-        this.value *= 2;
-        return this;
-    },
-    getValue: function() {
-        return this.value;
-    }
-};
+filteredArray[0].id = 4;
 
-let result = obj.increment().double().increment().getValue();
-console.log(result);
+console.log(originalArray);
+console.log(filteredArray);
