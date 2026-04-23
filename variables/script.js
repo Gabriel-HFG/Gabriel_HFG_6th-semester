@@ -8,6 +8,7 @@ function function1() {
     mood = "Super happy";
     console.log(`i live in ${loc} my mood is ${mood}`);
 }
+
 function function2() {
 
     let companyName = "Gabo. inc";
@@ -20,6 +21,7 @@ Founding year: ${foundingYear}
 is Active: ${isActive}
 fundingAmount: ${fundingAmount}`);
 }
+
 function function3() {
     let number = 5;
     number = (((number * 2) + 10) / 2) - number;
