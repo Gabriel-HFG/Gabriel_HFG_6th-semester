@@ -1,9 +1,9 @@
-let originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
-let filteredArray = [...originalArray]
-filteredArray = filteredArray.filter(item => item.id > 1).map((item) => ({...item}));
-console.log(originalArray)
+const score = 95;
 
-filteredArray[0].id = 4;
-
-console.log(originalArray);
-console.log(filteredArray);
+if (score >= 80) {
+    console.log("Grade B");
+} else if (score >= 90) {
+    console.log("Grade A");
+} else {
+    console.log("Below B");
+}
