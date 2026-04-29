@@ -52,3 +52,7 @@
         button:active {
             transform: scale(0.95);
         }
+
+        .buttons {
+            padding-top: 2vh;
+        }
