@@ -1,0 +1,50 @@
+body {
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.key {
+    border: 4px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    transition: all 0.07s ease;
+    text-align: center;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 15px #ffc600;
+    background: rgba(255, 198, 0, 0.1);
+}
+
+kbd {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sound {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffc600;
+}

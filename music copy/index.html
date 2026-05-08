@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MPC Ultimate Console</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mpc-console">
+        <!-- Pantalla LCD -->
+        <header class="lcd-screen">
+            <div class="lcd-info">
+                <span id="status">READY</span>
+                <span id="fx-name">CLEAN</span>
+            </div>
+            <div class="lcd-main">LOOP: <span id="loop-timer">0.00</span></div>
+        </header>
+
+        <div class="controls-layout">
+            <!-- Controles de la Izquierda -->
+            <aside class="sidebar-fx">
+                <h3>FX MASTER</h3>
+                <button class="fx-btn active" data-fx="none">PURE</button>
+                <button class="fx-btn" data-fx="grime">DISTORT</button>
+                <button class="fx-btn" data-fx="crunch">CRUNCH</button>
+                <button class="fx-btn" data-fx="echo">DELAY</button>
+
+                <hr>
+
+                <h3>TRANSPORT</h3>
+                <button id="rec-btn" class="transport-btn">REC LOOP</button>
+                <button id="play-btn" class="transport-btn">PLAY LOOP</button>
+                <button id="clear-btn" class="transport-btn">CLEAR</button>
+            </aside>
+
+            <!-- Rejilla de Pads -->
+            <main class="pads-grid">
+                <div data-key="a" class="pad"><kbd>A</kbd><span>BASS</span></div>
+                <div data-key="s" class="pad"><kbd>S</kbd><span>CLAP</span></div>
+                <div data-key="d" class="pad"><kbd>D</kbd><span>HAT</span></div>
+                <div data-key="f" class="pad"><kbd>F</kbd><span>KICK</span></div>
+                <div data-key="g" class="pad"><kbd>G</kbd><span>OPEN</span></div>
+                <div data-key="h" class="pad"><kbd>H</kbd><span>SNARE</span></div>
+                <div data-key="j" class="pad"><kbd>J</kbd><span>TOM</span></div>
+                <div data-key="k" class="pad"><kbd>K</kbd><span>YUH</span></div>
+                <div data-key="l" class="pad"><kbd>L</kbd><span>SNARE 2</span></div>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
